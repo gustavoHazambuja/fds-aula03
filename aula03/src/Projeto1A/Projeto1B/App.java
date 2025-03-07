@@ -1,7 +1,6 @@
-
+package Projeto1A.Projeto1B;
 
 import java.util.Scanner;
-import Professor;
 
 public class App {
     public static void main(String[] args) {
@@ -15,7 +14,7 @@ public class App {
 
         Professor p = new Professor(nome,anos);
         System.out.println(p.toString());
-        System.out.println("Categoria: " + p.classifica);
+        System.out.println("Categoria: " + p.classifica());
 
         dados.close();
     }
