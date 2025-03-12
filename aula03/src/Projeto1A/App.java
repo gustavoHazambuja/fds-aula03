@@ -6,5 +6,7 @@ public class App {
         String  version = System.getProperty("java.version");
         System.out.println("Running Java Version " + version);
         System.out.println("Testanto mudança"); //Comentário inserido na branch main
+
+        System.out.println("Alteração na branch Alteração"); // Alteração na branch Alteracao
     }
 }
