@@ -1,5 +1,6 @@
 package Projeto1A;
 
+//  Bug resolvido
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("\nHello");
